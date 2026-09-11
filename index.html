@@ -353,7 +353,8 @@
     .mobile-bar{display:flex; position:fixed; bottom:0; left:0; right:0; background:var(--surface);
                 border-top:1px solid var(--line); z-index:40; overflow-x:auto;}
     .mobile-bar button{flex:1; min-width:64px; display:flex; flex-direction:column; align-items:center; gap:3px;
-                        background:none; border:none; color:var(--ink-2); padding:9px 4px 8px; font-size:9.5px; font-weight:700;}
+                        background:none; border:none; color:var(--ink-2); padding:9px 4px 8px; font-size:8.5px; font-weight:700;}
+    .mobile-bar button span{white-space:nowrap; overflow-wrap:normal; overflow:hidden; text-overflow:ellipsis; max-width:100%;}
     .mobile-bar button svg{width:18px; height:18px; stroke:currentColor; fill:none; stroke-width:1.7;}
     .mobile-bar button.active{color:var(--accent);}
     body{padding-bottom:0;}
